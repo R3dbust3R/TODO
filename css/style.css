@@ -1,0 +1,89 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fefefe;
+  color: #333;
+  max-width: 720px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+body h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #5a67d8;
+}
+
+input,
+button {
+  font-size: 1rem;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  transition: padding 0.3s;
+}
+
+input {
+  flex: 1;
+  border: 1px solid #ddd;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+input:focus {
+  outline: none;
+  padding-right: 35px;
+}
+
+button {
+  background-color: #5a67d8;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #434190;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+ul li:hover {
+  transform: scale(1.02);
+  background-color: white;
+}
+ul li.completed {
+  background-color: rgb(14, 168, 52);
+}
+ul li.completed .task-text {
+  text-decoration: line-through;
+  color: white;
+}
+ul li .task-text {
+  flex: 1;
+  margin-right: 10px;
+  cursor: pointer;
+}
+ul li button.remove {
+  background-color: #e53e3e;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+ul li button.remove:hover {
+  background-color: #d41c1c;
+}/*# sourceMappingURL=style.css.map */
